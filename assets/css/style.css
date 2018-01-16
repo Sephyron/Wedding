@@ -1,0 +1,580 @@
+html, body {
+    /* background: #fefcea; */
+    background: #EDECDA;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 62.5%;
+}
+
+.navbar-default {
+    background-color: transparent;
+    transition: all .35s;
+}
+
+.navbar-collapse {
+    text-align:center;
+    color: white;
+  }
+.navbar-nav {
+    display:inline-block;
+    float:none;
+  }
+
+  .navbar-default .nav > li>a, .navbar-default .nav>li>a:focus{
+      text-transform: uppercase; 
+      font-size: 13px;
+      font-weight: 700;
+      color: gray;
+  }
+
+  .nav>li {
+      position: relative;
+      display: block;
+  }
+
+  header {
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      display: block;
+      background-color: #000;
+      overflow: hidden;
+      z-index: 22;
+      margin-bottom: 18rem;
+  }
+
+  #headerBackground {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: block;
+      background: url(../img/header3.png);
+      background-size: cover;
+      background-attachment: fixed;
+      z-index: 1;
+  }
+
+  .name {
+      color: white;
+      font-family: freight;
+  }
+
+  #Page {
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+  }
+
+  .btn-xl {
+      padding: 15px 30px;
+  }
+
+  .btn {
+      margin-right: 30px;
+      border: 0;
+      border-radius: 300px;
+      text-transform: uppercase;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-weight: 700;
+      width: 90%;
+      font-size: 20px;
+      margin-top: 20px;
+  }
+
+  #aboutUs #story .content {
+      width: 100%;
+      display: block;
+      position: relative;
+      z-index: 2;
+  }
+
+  #aboutUs {
+      display: block;
+      width: 120rem;
+      position: relative;
+      min-height: 100vh;
+      padding-top: 24rem;
+      padding-bottom: 18rem;
+      margin: 0 auto;
+  }
+
+  #SF1 {
+      position: absolute;
+      left: 0vw;
+      top: 500px;
+      font-size: 296px;
+      font-weight: 900;
+      opacity: .25;
+      filter: blur(6px);
+      background: url(../img/sf.png) no-repeat;
+      z-index: 1;
+      float: right;
+      height: 370px;
+      width: 370px;
+  }
+
+  #SF2 {
+    position: absolute;
+    left: 0vw;
+    font-size: 296px;
+    font-weight: 900;
+    top: -480px;
+    opacity: .25;
+    filter: blur(6px);
+    background: url(../img/sf.png) no-repeat;
+    z-index: 4;
+    float: right;
+    height: 370px;
+    width: 370px;
+}
+
+#SF3 {
+    position: absolute;
+    left: 350px;
+    font-size: 296px;
+    font-weight: 900;
+    top: 2700px;
+    opacity: .25;
+    filter: blur(6px);
+    background: url(../img/sf.png) no-repeat;
+    z-index: 4;
+    float: right;
+    height: 370px;
+    width: 370px;
+}
+
+#SF4 {
+    position: absolute;
+    left: 350px;
+    font-size: 360px;
+    font-weight: 700;
+    top: 3300px;
+    opacity: .25;
+    filter: blur(6px);
+    background: url(../img/sf.png) no-repeat;
+    z-index: 4;
+    float: right;
+    height: 370px;
+    width: 370px;
+}
+
+#SF5 {
+    position: absolute;
+    left: 350px;
+    font-size: 360px;
+    font-weight: 700;
+    top: 3300px;
+    opacity: .25;
+    filter: blur(6px);
+    background: url(../img/sf.png) no-repeat;
+    z-index: 4;
+    float: right;
+    height: 370px;
+    width: 370px;
+}
+
+#proposal {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 24rem;
+    /* padding-bottom: 18rem; */
+}
+
+#proposal .story {
+    position: relative;
+    width: 120rem;
+    margin: 0 auto;
+}
+
+#proposal .content {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+#proposal .image {
+    display: block;
+    width: 112.8rem;
+    height: 63.3rem;
+    position: relative;
+    z-index: 1;
+}
+
+#proposalImage1 {
+    background: url(../img/proposal1.jpg) center center no-repeat;
+    margin: 3.6rem;
+}
+
+#proposal p {
+    position: relative;
+    font-family: freight;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.3em;
+    z-index: 14;
+    font-size: 7.2rem;
+    width: 90rem;
+    left: 20rem;
+    margin-top: 7.2rem;
+}
+
+#proposal p span {
+    font-style: italic;
+    font-weight: 600;
+}
+
+#venue {
+    width: 120rem;
+    text-align: center;
+    display: block;
+    position: relative;
+    z-index: 2;
+    padding-top: 24rem;
+    margin: 0 auto;
+}
+
+#venue .headline {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 95;
+}
+
+#venue h1 {
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 900;
+    margin-bottom: 7.2rem;
+    line-height: 1.5em;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 99;
+    position: relative;
+}
+
+#venueImage1 {
+    width: 112.8rem;
+    height: 63.3rem;
+    background: url(../img/venue1.jpg ) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin: 3.6rem auto 7.2rem auto;
+}
+
+#venue h2 {
+    font-weight: 700;
+    font-size: 7.2rem;
+    letter-spacing: 1px;
+    color: #000;
+    line-height: 1em;
+    margin-bottom: 7.2rem;
+    z-index: 99;
+    position: relative;
+    text-align: center;
+}
+
+#venue #map {
+    display: block;
+    width: 55.9rem;
+    height: calc(37.5vw - 72px);
+    position: relative;
+    z-index: 1;
+    float: left;
+    margin: 12rem .5rem 3.6rem 3.6rem;
+}
+
+  #aboutUs .images {
+      display: block;
+      width: 120rem;
+      height: 63.3rem;
+      position: relative;
+      z-index: 1;
+      margin-left: 35px;
+  }
+
+  #aboutUs .images .image {
+      width: 55.9rem;
+      height: 100%;
+      position: relative;
+      float: left;
+  }
+
+  #aboutUsImage1 {
+      background: url(../img/aboutUs3.jpg) center no-repeat;
+      background-size: cover;
+      margin-right: .5rem;
+  }
+
+  #aboutUsImage2 {
+      background: url(../img/aboutUs2.jpg) center no-repeat;
+      background-size: cover;
+      margin-left: .5rem;
+  }
+
+  #venueMap {
+    background: url(../img/map.jpg) center no-repeat;
+  }
+
+  /* #aboutUsQuote {
+      font-size: 54px;
+      font-weight: 400;
+      position: relative;
+      display: block;
+      width: 80%;
+      line-height: 1em;
+      text-align: center;
+      margin: 9rem 10% 0 10%;
+      left: 0;
+      font-family: freight;
+      z-index: 24;
+  } */
+
+  #aboutUsQuote {
+      font-size: 7.2rem;
+      font-weight: 400;
+      position: relative;
+      display: block;
+      width: 60rem;
+      line-height: 1em;
+      margin-top: 9rem;
+      left: -5rem;
+      font-family: freight;
+      z-index: 24;
+  }
+
+  #aboutUs p {
+      width: 100rem;
+      font-size: 2.4rem;
+      font-family: freight;
+      color: #000;
+      letter-spacing: 1.5px;
+      line-height: 1.5em;
+      margin: 3.6rem 10rem;
+      z-index: 99;
+      display: block;
+      position: relative;
+  }
+
+  .content h1 {
+      font-family: serif;
+      font-size: 1.2rem;
+      color: #000000;
+      font-weight: 900;
+      margin-bottom: 7.2rem;
+      line-height: 1.5em;
+      width: 120rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+      position: relative;
+      z-index: 99;
+  }
+
+  #siteContainer {
+      z-index: 99;
+  }
+
+  #ceremonyDesc {
+      display: block;
+      width: 52.8rem;
+      position: relative;
+      float: left;
+      font-size: 2.4rem;
+      font-family: san-serif;
+      letter-spacing: 1.5px;
+      text-align: left;
+      margin: 12rem 3.6rem 3.6rem 3.6rem;
+      z-index: 99;
+    }
+
+#venue h3 {
+    font-family: serif;
+    font-weight: normal;
+    font-size: 3.6rem;
+    letter-spacing: 1px;
+    line-height: 1px;
+    margin-bottom: 7.2rem;
+    z-index: 99;
+    position: relative;
+}
+
+#party {
+    display: block;
+    width: 120rem;
+    position: relative;
+    min-height: 100vh;
+    padding-top: 24rem;
+    padding-bottom: 18rem;
+    margin: 0 auto;
+}
+
+#party #story {
+    width: 100%;
+}
+
+#party #story .content {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+#party .image {
+    display: block;
+    width: 120rem;
+    height: 63.3rem;
+    position: relative;
+    z-index: 1;
+}
+
+#party .image .im {
+    width: 55.9rem;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+#partyImage1 {
+    background: url(#) center center no-repeat;
+    background-size: cover;
+}
+
+#partyImage1 {
+    background: url(#) center center no-repeat;
+    background-size: cover;
+}
+
+#party .partyList {
+    display: block;
+    width: 55.9rem;
+    float: left;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: .5rem;
+    line-height: 1em;
+    margin-top: 5.4rem;
+}
+
+#party .groomParty {
+    margin-left: 3.6rem;
+    margin-right: 1rem;
+}
+
+#party .topParty h2 {
+    font-size: 4.8rem;
+    line-height: 1em;
+    font-style: italic;
+}
+
+#party .partyList h2 {
+    font-size: 2.4rem;
+    font-family: serif;
+    letter-spacing: .25rem;
+}
+
+#party .topParty span {
+    font-size: 2.4rem;
+    line-height: 2em;
+    letter-spacing: 1em;
+}
+
+#party span {
+    margin-bottom: 3.6rem;
+    display: block;
+    text-transform: uppercase;
+    color: #6d0019;
+}
+
+#registry {
+    display: block;
+    background-color: #8cbfc9;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 18rem;
+    margin-bottom: 12rem;
+}
+
+#registry .container {
+    width: 120rem;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+#registry h1 {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 900;
+    margin-bottom: 7.2rem;
+    padding-top: 18rem;
+    line-height: 1.5em;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 99;
+    position: relative;
+}
+
+#registry #logoContainer {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#registry #logoContainer .logo {
+    width: 20%;
+    float: left;
+    display: block;
+    padding: 6.5;
+    position: relative;
+}
+
+a {
+    text-decoration: underline;
+    color: #72b1c8;
+}
+
+#registry #logoContainer .logo img {
+    width: 100%;
+    height: auto;
+    transition: all 0.15s ease-out;
+}
+
+header .header-content .header-content-inner {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+}
+
+/* header .header-content .header-content-inner h1 {
+    margin-top: 500px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+} */
+
+#main-text {
+    color: white;
+    font-size: calc(((.52vw + .9259vh) / 2) * 18);
+    line-height: 1em;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0.015em;
+    position: relative;
+    z-index: 99;
+    margin-top: 200px;
+}
