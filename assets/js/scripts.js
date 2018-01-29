@@ -42,7 +42,7 @@ $(document).ready(function(){
 
   function parallax(){
 	var scrolled = $(window).scrollTop();
-	var page2 = $('#aboutUs').offset().top;
+	var page2 = $('#Page2').offset().top;
 	$('#SF1').css({transform:"translate3d(1200px,"+(scrolled*0.2)+'px,0)'});
 	$('#SF2').css({transform:"translate3d(-335px,"+(scrolled*0.5)+'px,0)'});
 	$('#SF3').css({transform:"translate3d(-335px,"+(scrolled*0.2)+'px,0)'});
