@@ -56,7 +56,7 @@
 							<br> getting
 							<br>
 							<span style="font-style:italic">married!</span>
-							<a href="#Page6 .container" class="btn btn-primary btn-xl">RSVP Now</a>
+							<a href="#rsvpForm" class="btn btn-primary btn-xl">RSVP Now</a>
 						</span>
 					</div>
 					<div id="page1BG"></div>
@@ -109,9 +109,10 @@
 					</h2>
 				</div>
 				<div id="map"></div>
-				<div id="cerDesc">The Ceremony and Reception will be held at Lake Elmo Inn Event Center. Reception starts at 1:00.
+				<div id="cerDesc">The Ceremony and Reception will be held at Lake Elmo Inn Event Center. Reception starts at 1:00 PM. 
 					<br/>
-					<br/> We have a hotel room block at SOME HOTEL HERE. IS TRANSPORTATION PROVIDED?! ARE WE SHUTTLING? ARE WE HAVING AN AFTER PARTY?
+					<br/> We have a hotel room block at the Hilton Garden Inn. <a href="http://hiltongardeninn.hilton.com/en/gi/groups/personalized/M/MSPOHGI-ENGFER-20180907/index.jhtml?WT.mc_id=POG">Click Here</a>
+					to reserve your room at our discounted rate. After party plans to be decide!
 					<br/>
 					<br/>
 					<h3>Ceremony will seat at
@@ -136,7 +137,7 @@
 							<br>
 							<h2>Steven Spadini</h2>
 							<br>
-							<span>Best Man</span>
+							<span>Groomsman</span>
 							<br>
 							<br>
 							<h2>Christian Ferrier</h2>
@@ -168,7 +169,7 @@
 							<span>Bridesmaid</span>
 							<br>
 							<br>
-							<h2>Unknown Person</h2>
+							<h2>Jessica Ferrier</h2>
 							<br>
 							<span>Bridesmaid</span>
 							<br>
@@ -182,7 +183,7 @@
 					<h1>REGISTRY</h1>
 					<div id="logoCon">
 						<div class="logo">
-							<a href="#">
+							<a target="_blank" href="https://www.zola.com/registry/ambernjustin">
 								<img src="assets/img/zola1.png">
 							</a>
 						</div>
@@ -201,15 +202,21 @@
 			<script src="assets/js/scripts.js"></script>
 			<script>
 				function initMap() {
-					var uluru = { lat: 45.0027321, lng: -92.8799817 };
+					var venue = { lat: 45.0027321, lng: -92.8799817 };
+					var hotel = { lat:44.953522, lng:-92.9373789};
+					var center = { lat:44.975784, lng:-92.914499};
 					var map = new google.maps.Map(document.getElementById('map'), {
 						zoom: 12,
-						center: uluru
+						center: center
 					});
 					var marker = new google.maps.Marker({
-						position: uluru,
+						position: venue,
 						map: map
 					});
+					var marker = new google.maps.Marker({
+						position: hotel,
+						map: map
+					})
 				}
 			</script>
 			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvLFUeP78rGHvio03dSzjZCTmt1jMTIQc&callback=initMap">
