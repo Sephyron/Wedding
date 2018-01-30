@@ -829,8 +829,8 @@ a:hover{
     width:100%;
     position:relative;
     z-index:1;
+    padding-top:18rem;
     padding-bottom:18rem;
-    margin-bottom:12rem;
 }
 
 #Page5 .container{
@@ -1162,13 +1162,13 @@ a {
     z-index:1;
 }
 
-/* #Page6{
+ #Page6{
     margin:6rem auto 0rem auto;
     position:relative;
     width:120rem;
 }
 
-#Page6 .flexCon{
+/*#Page6 .flexCon{
     display:flex;
     flex-direction: row
 }
